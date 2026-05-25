@@ -35,8 +35,8 @@ const testimonials: Testimonial[] = [
   },
   {
     quote:
-      'Security was our top concern. Luminary\'s SOC 2 certification and granular permissions gave our enterprise clients the confidence they needed.',
-    name: 'James O'Brien',
+      "Security was our top concern. Luminary's SOC 2 certification and granular permissions gave our enterprise clients the confidence they needed.",
+    name: "James O'Brien",
     role: 'VP Engineering',
     company: 'SecureStack',
     avatar: 'JO',
@@ -97,7 +97,7 @@ export default function Testimonials() {
               className="card-hover bg-[#16162a] border border-[#2a2a45] rounded-2xl p-6 flex flex-col"
             >
               <Quote className="w-6 h-6 text-brand-400 mb-4 flex-shrink-0" />
-              <p className="text-slate-300 text-sm leading-relaxed mb-6 flex-1">"{t.quote}"</p>
+              <p className="text-slate-300 text-sm leading-relaxed mb-6 flex-1">&ldquo;{t.quote}&rdquo;</p>
               <div className="flex items-center gap-3">
                 <div
                   className={`w-10 h-10 rounded-full bg-gradient-to-br ${avatarColors[i]} flex items-center justify-center text-white text-xs font-bold flex-shrink-0`}
